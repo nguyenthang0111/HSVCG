@@ -1,0 +1,58 @@
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    background: rgba(0,0,0,0.6);
+    padding: 0 px;
+}
+
+.header__logo {
+    max-width: 6%;
+    float: left;
+    margin-left: 15px;
+}
+
+.header__right {
+    float: right;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu__icon {
+    max-width: 2%;
+}
+
+.main-menu__item {
+    display: inline-block;
+    list-style: none;
+}
+
+.main-menu__link:hover {
+    color: #191919;
+    background: #99ccff;
+    text-decoration: none;
+}
+
+.main-menu__link {
+    position: relative;
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+
+}
+
+/* Banner */
+.banner {
+    box-sizing: border-box;
+    width: 100%;
+    background-size: cover;
+}
+
