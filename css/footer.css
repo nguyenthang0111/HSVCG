@@ -5,6 +5,7 @@
 
 .footer__left {
     float: left;
+    font-weight: 600;
 }
 
 .footer__title {
@@ -17,38 +18,67 @@
 }
 
 .footer__icons {
-    list-style: none;
     display: flex;
 }
 
 .footer__icon {
-    margin: 0 15px; 
+    list-style: none;
+    margin: 0 10px; 
+}
+
+.footer__link {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer__link:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+.fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+
+.fa:hover {
+    color: #ffffff;
 }
 
 .footer__icon a i {
-    font-size: 35px;
+    font-size: 30px;
     color: #000;
 }
 
-.footer__icon:nth-child(1):hover {
+.footer__icon:nth-child(1) a:hover {
     background-color: #1877F2;
 }
 
-.footer__icon:nth-child(2):hover {
+.footer__icon:nth-child(2) a:hover {
     background-color: #E4405F;
 }
 
-.footer__icon:nth-child(3):hover {
+.footer__icon:nth-child(3) a:hover {
     background-color: #410093;
 }
 
-.footer__icon:nth-child(4):hover {
+.footer__icon:nth-child(4) a:hover {
     background-color: #CD201F;
 }
 
-.footer__icon:nth-child(5):hover {
+.footer__icon:nth-child(5) a:hover {
     background-color: #21759B;
 }
+
 
 
     

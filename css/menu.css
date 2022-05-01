@@ -10,7 +10,7 @@
 }
 
 .header__logo {
-    max-width: 6%;
+    max-width: 5%;
     float: left;
     margin-left: 15px;
 }
@@ -22,19 +22,9 @@
     padding: 0;
 }
 
-.main-menu__icon {
-    max-width: 2%;
-}
-
 .main-menu__item {
     display: inline-block;
     list-style: none;
-}
-
-.main-menu__link:hover {
-    color: #191919;
-    background: #99ccff;
-    text-decoration: none;
 }
 
 .main-menu__link {
@@ -46,13 +36,21 @@
     box-sizing: border-box;
     text-decoration: none;
     color: white;
+}
 
+.main-menu__link i {
+    color: white;
+}
+
+.main-menu__link:hover {
+    color: #191919;
+    background: #FA8500;
+    text-decoration: none;
 }
 
 /* Banner */
-.banner {
-    box-sizing: border-box;
-    width: 100%;
+.banner__image {
+    max-width: 100%;
     background-size: cover;
 }
 
